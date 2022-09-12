@@ -1,9 +1,10 @@
-print("Valdis")
+# print("Valdis")
 # # # we declare variables in Python when we first use them
 my_name = "Valdis"  # there are no types no val, no var no const nothing like that in Python
 print(my_name)
 print("my_name")  # this is not a variable, this string literal
 #
+print("my name " * 5)
 # # variables do have data types in Python
 # print(type(my_name))
 # # so for any variables you can find out type with type(my_variable)
@@ -25,6 +26,7 @@ print(id(b))  # this shows where in virtual memory the b points at
 print(id(c))  # this shows where in virtual memory the b points at
 #
 print(my_name, type(my_name))
+
 my_name = 7  # so here dynamically Python changed where my_name points at
 print("I do not want ot be a number!", my_name, type(my_name))  # so now my_name points to different content
 # # but also my_name is now pointing to different data type all together
@@ -77,6 +79,11 @@ print(e_rounded, type(e_rounded))
 e_rounded_to_2 = round(e, 2)  # this is a rounding function with 2 decimals
 print(e_rounded_to_2, type(e_rounded_to_2))
 print(e_rounded_to_2)
+
+print(round(3.5))
+print(round(4.5))
+print(round(5.5))
+print(round(6.5))
 
 # e = int(e)  # this is a conversion, so called type casting, here it works as floor function
 # print(e, type(e))  # back to integer, so we lose some information
@@ -150,4 +157,7 @@ print(e_rounded_to_2)
 #
 # # not everthin will cast to number
 # print(my_name)
-# # will_fail = int(my_name) # this will fail with an ValueError # there are ways of checking
+# # will_fail = int(my_name) # this will fail with an ValueError # there are ways of checkin
+
+
+
