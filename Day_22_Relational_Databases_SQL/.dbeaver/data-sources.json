@@ -1,0 +1,29 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-1842f4572fb-1d5a06ecf5bbdfbb": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "chinook.db",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "C:\\Users\\Kristine\\SheGoesTech\\SGT_22\\Python_SheGoesTech_22\\Day_22_Relational_Databases_SQL\\chinook.db",
+				"url": "jdbc:sqlite:C:\\Users\\Kristine\\SheGoesTech\\SGT_22\\Python_SheGoesTech_22\\Day_22_Relational_Databases_SQL\\chinook.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
